@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //Reads in console
         Scanner in = new Scanner(System.in);
 
         System.out.println("Write a number");
