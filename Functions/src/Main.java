@@ -26,6 +26,11 @@ public class Main {
         }
     }
 
+    /**
+     * Description: This function will do the mathematical operation of addition
+     * @param num1 the first number in the operation
+     * @param num2 the second number in the operations
+     */
     public static void addition(int num1, int num2){
         System.out.println("The result is: " + (num1 + num2));
     }
