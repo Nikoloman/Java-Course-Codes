@@ -47,5 +47,35 @@ public class Main {
         cities[2][1] = "Bogotá";
         cities[3][0] = "Colombia";
         cities[3][1] = "Medellín";
+
+        //Normal For
+        for (int i = 0; i < androidVersions.length; i++){
+            System.out.println(androidVersions[i]);
+        }
+
+        System.out.println();
+
+        //For each
+        for (String version : androidVersions) {
+            System.out.println(version);
+        }
+
+        System.out.println();
+
+        //Nested For
+        for (int i = 0; i < cities.length; i ++){
+            for (int j = 0; j < cities[i].length; j++){
+                System.out.println(cities[i][j]);
+            }
+        }
+
+        System.out.println();
+
+        //Nested Foreach
+        for (String pair[] : cities) {
+            for (String name : pair) {
+                System.out.println(name);
+            }
+        }
     }
 }
